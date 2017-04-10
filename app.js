@@ -16,6 +16,6 @@ app.get("/", function(req,res){
 
 
 // start listener
-var listener = app.listen(8888, function(){
-    console.log('Listening on port ' + listener.address().port); //Listening on port 8888
-});
+app.listen(process.env.PORT, process.env.IP, function(){
+	   console.log("Server started");
+	});
