@@ -245,7 +245,7 @@ a:hover, a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/background.jpg) no-repeat center center scroll;
+  background: url(../img/background.png) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
